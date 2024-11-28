@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>PRÀCTICA 1 - Layout 2</title>
+  <link rel="stylesheet" type="text/css" href="/TA04/Projecto2/cssP2/reset.css">
+  <link rel="stylesheet" type="text/css" href="/TA04/Projecto2/cssP2/elmeustil.css">
+</head>
+<body>
+  <!-- Contenedor principal -->
+  <div id="contenidor"> 
+    <!-- Capçalera -->
+    <header> 
+      <div class="header">
+        <div class="imatge">
+          <img src="../imatges/itb.png" alt="Logo">
+          <div class="subtitulo">
+            <h3>Practica 2 CSS Basic</h3>
+          </div>
+        </div>
+        <div class="titol">
+          <div class="titulo">
+            <h1>Benvinguts a l'exercici Layout 2</h1>
+          </div>
+          <div class="subtitulo">
+            <h3>Versio amb CSS de l'exercici Layout 2 de la Practica</h3>
+          </div>
+        </div>
+        <img src="../imatges/baixa-removebg-preview.png" alt="Imatge" width="10%" height="10%">
+      </div>
+    </header>
+    <main>
+      <!-- Navegacion -->
+      <nav>
+        <div class="nav">
+          <h3 style="color: white;">PORTAL</h3>
+          <ul>
+            <li><a href="/TA04/index.html">Portafolio</a></li>
+            <li><a class="nav-link" href="./enllaços.html">enllaços</a></li>
+            <li><a class="nav-link" href="./javascript.html">javascript</a></li>
+            <li><a class="nav-link" href="./layout1.html">Layout1</a></li>
+            <li>Layout2</li>
+            <li><a class="nav-link" href="./taules.html">Taules</a></li>
+            <li><a class="nav-link" href="./formulario.html">Formulario</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Article -->
+      <article> 
+        <div class="article">
+          <div class="art_titol">
+            <h1>ITB: Un centre de Formació professional pel present y al futur</h1>
+          </div>
+          <img src="../imatges/tech.jpg" alt="Imatge" width="500px" height="100px">
+          <p>
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum.
+          </p>
+        </div>
+      </article>
+      <!-- Aside 1 -->
+      <aside> 
+        <div class="aside1">
+          <h2 style="color: blue; font-weight: bold;">LAST NEWS</h2>
+          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+        </div>
+        <!-- Aside 2 -->
+        <div class="aside2">
+          <form action="login.php" method="post">
+          <label for="Correo">Correoㅤ</label><br>
+          <input id="Correo" type="text" name="Correo" placeholder="Correo"><br>
+          <label for="Password">Passwordㅤ</label><br>
+          <input id="Password" type="text" name="Password" placeholder="Password"><br>
+          <input type="submit" value="Enviar">
+          </form>
+        </div>
+      </aside>
+    </main>
+    <!-- Footer -->
+    <footer> 
+      <div class="footer">
+        Realizado por Kevin Armada
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

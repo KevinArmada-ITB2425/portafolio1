@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h4>CONSULTES</h4>
+        <form action="method">
+            <ul>
+                <li><a href="/TA04/index.html">Portafolio</a></li>
+                <li><a href="./enllaços.html">Enllaços</a></li>
+                <li><a href="./taules.html">Taules</a></li>
+                <li><a href="./javascript.html">Javascript</a></li>
+                <li><a href="./layout1.html">Layout</a></li>
+                <li><a href="./layout2.html">Layout 2</a></li>
+                <li>Formulario</li>
+              </ul>
+            <fieldset>
+                <legend>Dades personals</legend>
+            <label for="nombre">Nombre:ㅤ</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre aqui">
+            <label for="Apellido">ㅤApellido:ㅤ</label>
+            <input id="Apellido" type="text" name="Apellido" placeholder="Escribe tu apellido aqui"> <br>
+            <label for="E-mail">E-mail:ㅤ</label>
+            <input id="E-mail" type="text" name="E-mail" placeholder="Escribe tu E-mail aqui"><br>
+            <label for="Edad">Elige tu edad:ㅤ</label>
+                <select name="edad" id="edad">
+                    <option value="menor de 16">Menor de 16</option>
+                    <option value="mayor de 18">Mayor de 18</option>
+                    <option value="16 y 18">16 y 18</option>
+                    <option vaule="soy inmortal">Soy inmortal</option>
+                </select><br>
+                <label for="Zona de residencia">Zona de residencia</label>
+                    <input id="Barcelona Ciudad" type="radio" name="ciudad" value="Barcelona ciudad" checked>
+                    <label for="Barcelona Ciudad">Barcelona ciudad</label>
+                    <input id="Baix LLobregat" type="radio" name="ciudad" value="Baix LLobregat" checked>
+                    <label for="Baix LLobregat">Baix LLobregat</label>
+                    <input id="Resta" type="radio" name="ciudad" value="Resta" checked>
+                    <label for="Resta">Resta</label>
+            </fieldset>
+            <fieldset>
+                <legend>Consulta</legend>
+                <label for="Consulta">Lenguaje de programacion</label>
+                <input id="PHP" type="checkbox" name="PHP" value="PHP" checked>
+                <label for="PHP">PHP</label>
+                <input id="Javascript" type="checkbox" name="Javascript" value="Javascript">
+                <label for="Javascript">Javascript</label>
+                <input id="Python" type="checkbox" name="Python" value="Python">
+                <label for="Python">Python</label><br>
+                <br>
+                <label for="Escribe tu consulta en el cuadro de texto">Escribe tu consulta en el cuadro de texto</label><br>
+                <textarea name="Esto es un mensaje por defecto" rows="10" cols="55" placeholder="Este texto es predeterminado"></textarea>
+            </fieldset><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+        </form>
+    </body>
+</html>
